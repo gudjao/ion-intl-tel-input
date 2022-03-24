@@ -28,7 +28,7 @@ export const countries: CountryI[] = [
     {
       name: 'AmericanSamoa',
       isoCode: 'as',
-      dialCode: '1 684',
+      dialCode: '1',
       flagClass: 'as',
       priority: 0,
       areaCodes: [
@@ -55,7 +55,7 @@ export const countries: CountryI[] = [
     {
       name: 'Anguilla',
       isoCode: 'ai',
-      dialCode: '1 264',
+      dialCode: '1',
       flagClass: 'ai',
       priority: 0,
       areaCodes: [
@@ -66,7 +66,7 @@ export const countries: CountryI[] = [
     {
       name: 'Antigua and Barbuda',
       isoCode: 'ag',
-      dialCode: '1 268',
+      dialCode: '1',
       flagClass: 'ag',
       priority: 0,
       areaCodes: [
@@ -125,7 +125,7 @@ export const countries: CountryI[] = [
     {
       name: 'Bahamas',
       isoCode: 'bs',
-      dialCode: '1 242',
+      dialCode: '1',
       flagClass: 'bs',
       priority: 0,
       areaCodes: [
@@ -152,7 +152,7 @@ export const countries: CountryI[] = [
     {
       name: 'Barbados',
       isoCode: 'bb',
-      dialCode: '1 246',
+      dialCode: '1',
       flagClass: 'bb',
       priority: 0,
       areaCodes: [
@@ -195,7 +195,7 @@ export const countries: CountryI[] = [
     {
       name: 'Bermuda',
       isoCode: 'bm',
-      dialCode: '1 441',
+      dialCode: '1',
       flagClass: 'bm',
       priority: 0,
       areaCodes: [
@@ -254,7 +254,7 @@ export const countries: CountryI[] = [
     {
       name: 'Virgin Islands, British',
       isoCode: 'vg',
-      dialCode: '1 284',
+      dialCode: '1',
       flagClass: 'vg',
       priority: 0,
       areaCodes: [
@@ -536,15 +536,18 @@ export const countries: CountryI[] = [
     {
       name: 'Dominica',
       isoCode: 'dm',
-      dialCode: '1 767',
+      dialCode: '1',
       flagClass: 'dm',
       priority: 0,
+      areaCodes: [
+        '767'
+      ],
       placeholder: ''
     },
     {
       name: 'Dominican Republic',
       isoCode: 'do',
-      dialCode: '1 849',
+      dialCode: '1',
       flagClass: 'do',
       priority: 0,
       areaCodes: [
@@ -733,9 +736,12 @@ export const countries: CountryI[] = [
     {
       name: 'Grenada',
       isoCode: 'gd',
-      dialCode: '1 473',
+      dialCode: '1',
       flagClass: 'gd',
       priority: 0,
+      areaCodes: [
+        '473'
+      ],
       placeholder: ''
     },
     {
@@ -749,7 +755,7 @@ export const countries: CountryI[] = [
     {
       name: 'Guam',
       isoCode: 'gu',
-      dialCode: '1 671',
+      dialCode: '1',
       flagClass: 'gu',
       priority: 0,
       areaCodes: [
@@ -910,7 +916,7 @@ export const countries: CountryI[] = [
     {
       name: 'Jamaica',
       isoCode: 'jm',
-      dialCode: '1 876',
+      dialCode: '1',
       flagClass: 'jm',
       priority: 0,
       areaCodes: [
@@ -948,9 +954,12 @@ export const countries: CountryI[] = [
     {
       name: 'Kazakhstan',
       isoCode: 'kz',
-      dialCode: '7 7',
+      dialCode: '7',
       flagClass: 'kz',
       priority: 0,
+      areaCodes: [
+        '7'
+      ],
       placeholder: ''
     },
     {
@@ -1212,7 +1221,7 @@ export const countries: CountryI[] = [
     {
       name: 'Montserrat',
       isoCode: 'ms',
-      dialCode: '1664',
+      dialCode: '1',
       flagClass: 'ms',
       priority: 0,
       areaCodes: [
@@ -1343,9 +1352,12 @@ export const countries: CountryI[] = [
     {
       name: 'Northern Mariana Islands',
       isoCode: 'mp',
-      dialCode: '1 670',
+      dialCode: '1',
       flagClass: 'mp',
       priority: 0,
+      areaCodes: [
+        '670'
+      ],
       placeholder: ''
     },
     {
@@ -1447,7 +1459,7 @@ export const countries: CountryI[] = [
     {
       name: 'Puerto Rico',
       isoCode: 'pr',
-      dialCode: '1 939',
+      dialCode: '1',
       flagClass: 'pr',
       priority: 0,
       areaCodes: [
@@ -1515,15 +1527,18 @@ export const countries: CountryI[] = [
     {
       name: 'Saint Kitts and Nevis',
       isoCode: 'kn',
-      dialCode: '1 869',
+      dialCode: '1',
       flagClass: 'kn',
       priority: 0,
+      areaCodes: [
+        '869'
+      ],
       placeholder: ''
     },
     {
       name: 'Saint Lucia',
       isoCode: 'lc',
-      dialCode: '1 758',
+      dialCode: '1',
       flagClass: 'lc',
       priority: 0,
       areaCodes: [
@@ -1550,7 +1565,7 @@ export const countries: CountryI[] = [
     {
       name: 'Saint Vincent and the Grenadines',
       isoCode: 'vc',
-      dialCode: '1 784',
+      dialCode: '1',
       flagClass: 'vc',
       priority: 0,
       areaCodes: [
@@ -1817,7 +1832,7 @@ export const countries: CountryI[] = [
     {
       name: 'Trinidad and Tobago',
       isoCode: 'tt',
-      dialCode: '1 868',
+      dialCode: '1',
       flagClass: 'tt',
       priority: 0,
       areaCodes: [
@@ -1852,9 +1867,12 @@ export const countries: CountryI[] = [
     {
       name: 'Turks and Caicos Islands',
       isoCode: 'tc',
-      dialCode: '1 649',
+      dialCode: '1',
       flagClass: 'tc',
       priority: 0,
+      areaCodes: [
+        '649'
+      ],
       placeholder: ''
     },
     {
@@ -1868,7 +1886,7 @@ export const countries: CountryI[] = [
     {
       name: 'Virgin Islands, U.S.',
       isoCode: 'vi',
-      dialCode: '1 340',
+      dialCode: '1',
       flagClass: 'vi',
       priority: 0,
       areaCodes: [
@@ -2005,4 +2023,3 @@ export const countries: CountryI[] = [
       placeholder: ''
     }
 ];
-
