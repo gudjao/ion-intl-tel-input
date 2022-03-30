@@ -9,7 +9,7 @@
     [hasVirtualScroll]="true"
     itemTextField="name"
     [items]="countries"
-    itemValueField="dialCode"
+    itemValueField="isoCode"
     modalCssClass="ionic-tel-input-modal {{modalCssClass}}"
     placeholder="Country"
     searchFailText="{{modalSearchFailText}}"
@@ -27,11 +27,11 @@
     </ng-template>
     <ng-template ionicSelectableValueTemplate let-country="value">
       <span class="flag-icon flag-icon-{{country.flagClass}}"></span>
-      <span *ngIf="separateDialCode">{{dialCodePrefix}}{{country.dialCode}}</span>
+      <span *ngIf="separateDialCode">{{dialCodePrefix}}{{country.displayDialCode}}</span>
     </ng-template>
     <ng-template ionicSelectableItemTemplate let-country="item">
         <span class="ion-margin-end">{{country.name}}</span>
-        <span *ngIf="separateDialCode">{{dialCodePrefix}}{{country.dialCode}}</span>
+        <span *ngIf="separateDialCode">{{dialCodePrefix}}{{country.displayDialCode}}</span>
     </ng-template>
     <ng-template ionicSelectableItemEndTemplate let-country="item">
       <span class="flag-icon flag-icon-{{country.flagClass}}"></span>
