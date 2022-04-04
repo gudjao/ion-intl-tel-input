@@ -14,7 +14,7 @@ export class CountryPlaceholder implements PipeTransform {
       const placeholder = phoneUtil.format(phoneUtil.getExampleNumber(country.isoCode), PhoneNumberFormat.INTERNATIONAL);
       if (placeholder) {
         if (separateDialCode) {
-          return placeholder.substr(placeholder.indexOf(' ') + 1).replace(/[0-9]/g, "0");
+          return "";
         } else {
           return placeholder;
         }
