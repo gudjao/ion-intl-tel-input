@@ -302,7 +302,7 @@ export class IonIntlTelInputComponent
    * @memberof IonIntlTelInputComponent
    */
   @Output()
-  readonly numberFocus = new EventEmitter<void>();
+  readonly numberFocus = new EventEmitter<Event>();
 
   /**
    * Fires when the user is typing in Phone number Input.
@@ -546,10 +546,10 @@ export class IonIntlTelInputComponent
     this.numberBlur.emit();
   }
 
-  onIonNumberFocus() {
+  onIonNumberFocus(event: Event) {
     this.hasFocus = true;
     this.setItemClass(this.el, 'item-has-focus', true);
-    this.numberFocus.emit();
+    this.numberFocus.emit(event);
   }
 
   onIonNumberInput(event: KeyboardEvent) {
